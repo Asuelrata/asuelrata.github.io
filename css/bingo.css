@@ -1,0 +1,61 @@
+#selectorbingo {
+    background-image: url("/imgs/bingo-base.png");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#selectorbingo .sel {
+    background-color: rgba(30,250,30,0.5);
+}
+
+button {
+    background-color: #9bfd9b;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid #024b02;
+    border-radius: 10px;
+}
+
+/* Tamaño del bingo */
+
+#selectorbingo > div {
+    width: 60px;
+    height: 60px;
+}
+
+
+@media (min-width: 576px) {
+    #selectorbingo > div {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (min-width: 768px) {
+    #selectorbingo > div {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (min-width: 992px) {
+    #selectorbingo > div {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #selectorbingo > div {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #selectorbingo > div {
+        width: 180px;
+        height: 180px;
+    }
+}

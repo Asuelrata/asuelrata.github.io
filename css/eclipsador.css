@@ -1,0 +1,35 @@
+/* Principales */
+button {
+    background-color: #317db6;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #1749b3;
+    border-radius: 10px;
+}
+
+/* Selector */
+
+.selector {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 5px;
+    padding: 0px 5%;
+}
+
+.entrada input {
+    display: none;
+}
+
+.entrada input + label {
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+.entrada input:checked + label {
+    color: #1749b3;
+    border-color: #1749b3;
+    background-color: #b6ced1;
+}

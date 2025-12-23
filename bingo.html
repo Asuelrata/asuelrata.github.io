@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bingo 2026</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script charset="utf-8" src="js/bingo.js"></script>
+    <script charset="utf-8" src="js/cookies.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bingo.css">
+</head>
+<body>
+    <a href="/">&#8592; Volver al inicio</a>
+    <div id="main">
+        <h2>1. Selecciona las casillas</h2>
+
+        <div id="selectorbingo"></div>
+
+        <p class="center">Si se ha completado alguna fila no se mostrará azul en el selector (mucho curro) pero sí en la imagen final</p>
+
+        <h2>2. Resultado</h2>
+        <button onclick="generarcanvas()">Generar</button>
+        <img class="ocultarimg" id="bingopokes" src="imgs/bingo-pokes.png">
+        <img class="ocultarimg" id="bingogrid" src="imgs/bingo-grid.png">
+        <canvas id="canvas" width="1080" height="1080"></canvas>
+    </div>
+
+    <script type="text/javascript">
+        generardivs();
+    </script>
+</body>
+</html>
