@@ -10,9 +10,10 @@ function generarcanvas()
     let canvas = document.getElementById('canvas');
     let ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    let equiselect = document.querySelectorAll('input[name="equipacion"]:checked')[0].value;
 
     // Ponemos imagen inicial
-    let img = document.getElementById('primera');
+    let img = equiselect=='primera' ? document.getElementById('primera') : document.getElementById('segunda');
     ctx.drawImage(img, 0 ,0);
 
     // Obtenemos quienes juegan para calcular tamaño de letra
@@ -37,7 +38,7 @@ function generarcanvas()
 
     // Preparamos para escribir
     ctx.font = fuente+'px jackport';
-    ctx.strokeStyle = '#1749b3';
+    ctx.strokeStyle = equiselect=='primera' ? '#1749b3' : '#d9239a';
     ctx.fillStyle = 'white';
     ctx.lineWidth = '3';
 

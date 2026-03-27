@@ -8,7 +8,7 @@ Por hablar un poco de los proyectos que subo en el commit inicial (ya veremos si
 
 Muy simple, como seguimos chinados #1 porque nuestro equipo al final se llama Ollauri on Tour tras una encuesta interna de dudoso rigor y #2 que la cuenta de Instagram oficial es un mierdón, decidimos hacer nuestra propia cuenta para llevar la actualidad del equipo: **eclipseo_on_tour**
 
-Esta pequeña aplicación nos ayuda a generar la imagen de convocatoria que subimos a las historias de IG. Actualmente falta incluir el diseño de nuestra segunda equipación
+Esta pequeña aplicación nos ayuda a generar la imagen de convocatoria que subimos a las historias de IG. Actualmente hay dos jugadores con el número 9 en la plantilla pero la gestión del equipo espaca de nuestro poder...
 
 ## Bingo Pokeñol
 
